@@ -13,23 +13,28 @@ h1 {
     font-size: 5.105em;
     line-height: 0.928em;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    padding-bottom: 12px;
 }
 
 h2 {
-    font-size: 32px
+    font-size: 32px;
+    padding-bottom: 8px;
 }
 
 h3 {
-    font-size: 24px
+    font-size: 24px;
+    padding-bottom: 6px;
 }
 
 h4 {
-    font-size: 18px
+    font-size: 18px;
+    padding-bottom: 4px;
 }
 
 h5 {
-    font-size: 16px
+    font-size: 16px;
+    padding-bottom: 2px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -71,6 +76,19 @@ p.author {
 .form input[type="submit"] {
     color: white;
     background-color: #008DD0
+}
+
+.topmenu {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.top-menu-order-button {
+    color: white;
+    font-weight: bold;
+    background-color: #129729;
+    border-radius: 5px;
+    padding: 5px 10px 6px 10px;
 }
 
 #login-form-container {
