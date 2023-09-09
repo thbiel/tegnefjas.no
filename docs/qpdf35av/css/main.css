@@ -65,8 +65,24 @@ p.author {
     align-items: center
 }
 
+.spacer-vertical {
+    margin: 80px 0 0 0;
+}
+
+.align-right {
+    text-align: right;
+}
+
 .form {
-    font-size: 32px
+    font-size: 130%;
+}
+
+.form input[type="text"] {
+    width: 100%;
+}
+
+.form div.row {
+    padding-top: 30px;
 }
 
 .form input[type="password"],.form input[type="text"] {
@@ -75,7 +91,9 @@ p.author {
 
 .form input[type="submit"] {
     color: white;
-    background-color: #008DD0
+    background-color: #008DD0;
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
 }
 
 .topmenu {
