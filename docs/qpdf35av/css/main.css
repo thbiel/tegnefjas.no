@@ -77,7 +77,7 @@ p.author {
     font-size: 110%;
 }
 
-.form input[type="text"] {
+.form input[type="text"], .form textarea {
     width: 100%;
 }
 
