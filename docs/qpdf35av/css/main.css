@@ -166,6 +166,11 @@ p.author {
     margin-right: -5px
 }
 
+.juicer-feed h1.referral {
+    display: none !important;
+    /* Removes Juicer logo in Instagram feed */
+}
+
 @media (max-width: 767px) {
     h1 {
         font-size:2em
