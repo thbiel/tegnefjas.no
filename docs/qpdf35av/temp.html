@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <table width="100" border="3" id="paintings"></table>
+    <br/>
+     <br/>
+    <input id="enterdata" type="text"/>
+    <button onclick="writeData()">Write Data</button>
+
+     <script>
+        function input_data(values) {
+            values.forEach(function (item, index) {
+                var tbl = document.getElementById("table");
+                tbl.innerHTML += '<tr><td>' + item[0] + '</td></tr>';
+            });
+        }
+
+        google.script.run.withSuccessHandler(input_data).readData();
+
+        function extract_data() {
+            var temp = document.getElementById("enterdata").value;
+            var tbl = document.getElementById("table")
+            tbl.innerHTML += '<tr><td>' + temp + '</td></tr>';
+            google.script.run.extract_data(temp);
+            document.getElementById("enterdata").value = null;
+        }
+    </script>
+
+  </body>
+</html>
